@@ -10,7 +10,7 @@ function closeMenu(){
 
 function enviarMensagemWhatsApp() {
     // Número de telefone para o qual você deseja enviar a mensagem
-    var numeroTelefone = "+5516992924468"; // Substitua pelo seu número de telefone com o código do país
+    var numeroTelefone = "+5516992807783"; // Substitua pelo seu número de telefone com o código do país
 
     // Mensagem que você deseja enviar
     var mensagem = "Olá! Gostaria de entrar em contato.";
@@ -29,7 +29,7 @@ function enviarFormWhatsApp() {
     var mensagem = document.getElementById("mensagem").value;
 
     // Número de telefone para o qual você deseja enviar a mensagem
-    var numeroTelefone = "+5516992924468"; // Substitua pelo seu número de telefone com o código do país
+    var numeroTelefone = "+5516992807783"; // Substitua pelo seu número de telefone com o código do país
 
     // Monta a mensagem com as informações do formulário
     var mensagemWhatsApp = "Nome: " + nome + "%0A";
