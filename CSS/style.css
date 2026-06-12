@@ -292,7 +292,8 @@ nav .close-icon {
 .hero-badges {
     display: flex;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
+    flex-wrap: wrap;
 }
 
 .badge-item {

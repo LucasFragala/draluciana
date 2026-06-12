@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Links | Dra. Luciana Schraiber</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            outline: none;
+            font-family: "Inter", sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #002a34 0%, #003b49 40%, #00546a 100%);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+
+        .linktree-container {
+            width: 100%;
+            max-width: 480px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #00c896;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
+
+        .profile-name {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 5px;
+            text-align: center;
+        }
+
+        .profile-desc {
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .links-wrapper {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .link-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 16px 20px;
+            border-radius: 12px;
+            font-size: 16px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+        }
+
+        .link-btn i {
+            position: absolute;
+            left: 20px;
+            font-size: 20px;
+        }
+
+        .link-btn:hover {
+            background-color: #00c896;
+            border-color: #00c896;
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(0, 200, 150, 0.3);
+            color: white;
+        }
+        
+        .whatsapp-btn {
+            background: linear-gradient(135deg, #00a67e, #00c896);
+            border-color: transparent;
+            box-shadow: 0 4px 15px rgba(0, 166, 126, 0.2);
+        }
+
+        .whatsapp-btn:hover {
+            background: linear-gradient(135deg, #00c896, #00a67e);
+            border-color: transparent;
+        }
+
+        .footer-text {
+            margin-top: 40px;
+            font-size: 13px;
+            color: rgba(255, 255, 255, 0.5);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="linktree-container">
+        <!-- Logo -->
+        <img src="img/img/sobre-doutora-nova.png" alt="Dra. Luciana Schraiber" class="profile-img">
+        
+        <h1 class="profile-name">Dra. Luciana Schraiber</h1>
+        <p class="profile-desc">Gastroenterologia, Hepatologia & Endoscopia</p>
+
+        <div class="links-wrapper">
+            <!-- Site Home -->
+            <a href="index.html" class="link-btn">
+                <i class="fa fa-globe"></i> Acessar nosso Site
+            </a>
+
+            <!-- WhatsApp -->
+            <a href="https://wa.me/5516992807783" class="link-btn whatsapp-btn" target="_blank">
+                <i class="fa fa-whatsapp"></i> Agendar pelo WhatsApp
+            </a>
+            
+            <!-- Telefone Fixo -->
+            <a href="tel:+551633032020" class="link-btn">
+                <i class="fa fa-phone"></i> Ligar (16) 3303-2020
+            </a>
+            
+            <!-- Facebook -->
+            <a href="https://www.facebook.com/share/1bHiFmFARU/" class="link-btn" target="_blank">
+                <i class="fa fa-facebook-official"></i> Facebook
+            </a>
+        </div>
+
+        <div class="footer-text">
+            Dra. Luciana Schraiber <br> CREMESP 181.239 | Clínica Médica: RQE 21846 | Gastroenterologia: RQE 21845 | Hepatologia: RQE 2480 | Endoscopia Digestiva: RQE 29767
+        </div>
+    </div>
+</body>
+
+</html>
